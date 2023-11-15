@@ -4,13 +4,23 @@
 <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
 
     <!-- header -->
-    <div class="title">
-        <h1>Schema visualization (beta)</h1>
+    <div class="title" style="align-items: center;">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 style="display: flex; align-items: center;">Schema Visualization (beta)</h1>
+            </div>
+            <div class="col-md-6" style="height: 50px;">
+                <img src="./imgs/sage-bionetworks-logo.svg" alt="sagebionetworks-logo" style="max-height: 100%"
+                    width="auto">
+            </div>
+        </div>
     </div>
 
     <!-- Dropdown: selecting a schema-->
@@ -45,7 +55,7 @@
 
             </div>
         </div>
-
+    </div>
 
 
 </body>
@@ -72,5 +82,7 @@
 <script type="text/javascript" src="js/PrepareRender.js"></script>
 <script type="text/javascript" src="js/DrawTable.js"></script>
 <script type="text/javascript" src="js/collapsibleTangleTree.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </html>

@@ -63,7 +63,7 @@ function createCollapsibleTree(chart, schema_url) {
     };
 
     const color = d3.scaleOrdinal(d3.schemeDark2);
-    const height = 600;
+    const height = 900;
     const width = 1200;
     const totalWidth = width + margins.left + margins.right;
 

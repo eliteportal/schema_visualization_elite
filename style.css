@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato");
 
 :root {
   --gray-100: #fbfbfc;
@@ -27,7 +27,7 @@ body {
   position: relative;
   border: 1px solid var(--gray-300);
   width: 90%;
-  height: var(--schema-wrapper-height);
+  height: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -255,7 +255,16 @@ table th {
   left: 0;
   z-index: 999;
   width: 100%;
-  height: 23px;
+  height: 50px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  float: left;
 }
 
 body h1 {
@@ -318,3 +327,4 @@ div.tooltip {
   border-radius: 8px;
   pointer-events: none;
 }
+

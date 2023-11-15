@@ -62,3 +62,6 @@ See detailed steps:
 # Issues
 
 - Reloading the site mulitple times seems to cycle through different graphs
+  - Hard coded tangled-tree for now
+- Last nodes valid values? 
+- Show Attributes table underneath chart
